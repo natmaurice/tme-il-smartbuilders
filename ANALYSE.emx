@@ -468,14 +468,14 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_6yB1ANBkEei5utmBXa6F_Q" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_6yB1AdBkEei5utmBXa6F_Q" type="Parent"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_6yCcENBkEei5utmBXa6F_Q" type="AttributeCompartment">
-            <layoutConstraint xmi:type="notation:Ratio" xmi:id="_LzrYINBlEei5utmBXa6F_Q" value="0.18674561603279435"/>
+            <layoutConstraint xmi:type="notation:Ratio" xmi:id="_LzrYINBlEei5utmBXa6F_Q" value="0.3458873154564628"/>
           </children>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_6yCcEdBkEei5utmBXa6F_Q" type="OperationCompartment">
-            <layoutConstraint xmi:type="notation:Ratio" xmi:id="_LzvCgNBlEei5utmBXa6F_Q" value="0.8132543839672056"/>
+            <layoutConstraint xmi:type="notation:Ratio" xmi:id="_LzvCgNBlEei5utmBXa6F_Q" value="0.6541126845435372"/>
           </children>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_6yDDINBkEei5utmBXa6F_Q" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6yERQNBkEei5utmBXa6F_Q" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yAm4dBkEei5utmBXa6F_Q" x="6535" y="15054" width="7140" height="5129"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yAm4dBkEei5utmBXa6F_Q" x="5676" y="14652" width="7140" height="7376"/>
         </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sbEa8MrcEei5VPPh28rAJw" element="_sbAwkMrcEei5VPPh28rAJw" source="_nHWekMrcEei5VPPh28rAJw" target="_iUInMMrcEei5VPPh28rAJw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -931,20 +931,6 @@
       <ownedUseCase xmi:id="_zLlMkNBaEei5utmBXa6F_Q" name="Configurer jeu" subject="_DOoZsMraEei5VPPh28rAJw"/>
       <ownedUseCase xmi:id="_G6LeINBbEei5utmBXa6F_Q" name="Corriger BO" subject="_DOoZsMraEei5VPPh28rAJw"/>
       <ownedUseCase xmi:id="_Oy_NcNBbEei5utmBXa6F_Q" name="Fournir êtat actuel" subject="_DOoZsMraEei5VPPh28rAJw"/>
-      <ownedOperation xmi:id="_pVHL0NBcEei5utmBXa6F_Q" name="Proposer_BO"/>
-      <ownedOperation xmi:id="_C-0J4NBdEei5utmBXa6F_Q" name="afficher_choix"/>
-      <ownedOperation xmi:id="_kClFwNBdEei5utmBXa6F_Q" name="afficher_continuer()"/>
-      <ownedOperation xmi:id="_U2jLANBeEei5utmBXa6F_Q" name="saisir_unité(&quot;boss&quot;,2)"/>
-      <ownedOperation xmi:id="_d9loANBeEei5utmBXa6F_Q" name="ajouté_unité_a_la_configuration(&quot;boss&quot;,2)"/>
-      <ownedOperation xmi:id="_ovmZENBeEei5utmBXa6F_Q" name="Valider_choix()"/>
-      <ownedOperation xmi:id="_ITkWINBfEei5utmBXa6F_Q" name="afficher_unité"/>
-      <ownedOperation xmi:id="_KmJAQNBgEei5utmBXa6F_Q" name="affichage"/>
-      <ownedOperation xmi:id="_0iPZUNBhEei5utmBXa6F_Q" name="ajouter_unité_auBO(u2)"/>
-      <ownedOperation xmi:id="_K-3XYNBiEei5utmBXa6F_Q" name="choisir_unité(u3)"/>
-      <ownedOperation xmi:id="_aak3cNBiEei5utmBXa6F_Q" name="terminer_BO"/>
-      <ownedOperation xmi:id="_McpHgNBjEei5utmBXa6F_Q" name="lancer_algo_optimal"/>
-      <ownedOperation xmi:id="_T0I5gNBjEei5utmBXa6F_Q" name="afficher_BO"/>
-      <ownedOperation xmi:id="_XB-ugNBjEei5utmBXa6F_Q" name="afficher_temps_excec"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_dg2wUMraEei5VPPh28rAJw" memberEnd="_dg3XYMraEei5VPPh28rAJw _dg3-ccraEei5VPPh28rAJw" navigableOwnedEnd="_dg3XYMraEei5VPPh28rAJw _dg3-ccraEei5VPPh28rAJw">
         <ownedEnd xmi:id="_dg3XYMraEei5VPPh28rAJw" name="joueur" visibility="private" type="_GxI3IMraEei5VPPh28rAJw" association="_dg2wUMraEei5VPPh28rAJw">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dg3-cMraEei5VPPh28rAJw" value="1"/>
@@ -1583,14 +1569,14 @@
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_nNqFMNBeEei5utmBXa6F_Q" covered="__-zgENBdEei5utmBXa6F_Q" start="_nNpeItBeEei5utmBXa6F_Q" finish="_nNqFMdBeEei5utmBXa6F_Q"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nNqFMdBeEei5utmBXa6F_Q" covered="__-zgENBdEei5utmBXa6F_Q" event="_ovmZEdBeEei5utmBXa6F_Q" message="_nNqFMtBeEei5utmBXa6F_Q"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nNqFM9BeEei5utmBXa6F_Q" covered="__LTmkNBdEei5utmBXa6F_Q" event="_ovmZEtBeEei5utmBXa6F_Q" message="_nNqFMtBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_KjOhENBeEei5utmBXa6F_Q" name="afficher_unité" receiveEvent="_KjOhEtBeEei5utmBXa6F_Q" sendEvent="_KjOhEdBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_KjPIItBeEei5utmBXa6F_Q" name="affichage" messageSort="reply" receiveEvent="_KjPII9BeEei5utmBXa6F_Q" sendEvent="_KjPIIdBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_REGNENBeEei5utmBXa6F_Q" name="saisir_unité(&quot;boss&quot;,2)" receiveEvent="_REG0INBeEei5utmBXa6F_Q" sendEvent="_REGNEdBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_REG0I9BeEei5utmBXa6F_Q" name="affichage(&quot;ajoutée&quot;)" messageSort="reply" receiveEvent="_REHbMNBeEei5utmBXa6F_Q" sendEvent="_REG0ItBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_X8dzENBeEei5utmBXa6F_Q" name="ajouté_unité_a_la_configuration(&quot;boss&quot;,2)" receiveEvent="_X8eaIdBeEei5utmBXa6F_Q" sendEvent="_X8eaINBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_X8eaJNBeEei5utmBXa6F_Q" name="True" messageSort="reply" receiveEvent="_X8eaJdBeEei5utmBXa6F_Q" sendEvent="_X8eaI9BeEei5utmBXa6F_Q"/>
-        <message xmi:id="_nNpeINBeEei5utmBXa6F_Q" name="Valider_choix()" receiveEvent="_nNpeItBeEei5utmBXa6F_Q" sendEvent="_nNpeIdBeEei5utmBXa6F_Q"/>
-        <message xmi:id="_nNqFMtBeEei5utmBXa6F_Q" name="fin" messageSort="reply" receiveEvent="_nNqFM9BeEei5utmBXa6F_Q" sendEvent="_nNqFMdBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_KjOhENBeEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_KjOhEtBeEei5utmBXa6F_Q" sendEvent="_KjOhEdBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_KjPIItBeEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_KjPII9BeEei5utmBXa6F_Q" sendEvent="_KjPIIdBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_REGNENBeEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_REG0INBeEei5utmBXa6F_Q" sendEvent="_REGNEdBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_REG0I9BeEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_REHbMNBeEei5utmBXa6F_Q" sendEvent="_REG0ItBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_X8dzENBeEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_X8eaIdBeEei5utmBXa6F_Q" sendEvent="_X8eaINBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_X8eaJNBeEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_X8eaJdBeEei5utmBXa6F_Q" sendEvent="_X8eaI9BeEei5utmBXa6F_Q"/>
+        <message xmi:id="_nNpeINBeEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_nNpeItBeEei5utmBXa6F_Q" sendEvent="_nNpeIdBeEei5utmBXa6F_Q"/>
+        <message xmi:id="_nNqFMtBeEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_nNqFM9BeEei5utmBXa6F_Q" sendEvent="_nNqFMdBeEei5utmBXa6F_Q"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_0GGXQNBeEei5utmBXa6F_Q" name="Interaction2">
         <eAnnotations xmi:id="_0GG-UNBeEei5utmBXa6F_Q" source="uml2.diagrams">
@@ -2290,14 +2276,14 @@
             <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_QsOYzNBhEei5utmBXa6F_Q" covered="_QsOYtdBhEei5utmBXa6F_Q" start="_QsOYy9BhEei5utmBXa6F_Q" finish="_QsOYzdBhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsOYzdBhEei5utmBXa6F_Q" covered="_QsOYtdBhEei5utmBXa6F_Q" message="_QsOY2NBhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsOYztBhEei5utmBXa6F_Q" covered="_QsOYtNBhEei5utmBXa6F_Q" message="_QsOY2NBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsOYz9BhEei5utmBXa6F_Q" name="afficher_choix" receiveEvent="_QsOYt9BhEei5utmBXa6F_Q" sendEvent="_QsOYttBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsOY0NBhEei5utmBXa6F_Q" name="affichage" messageSort="reply" receiveEvent="_QsOYutBhEei5utmBXa6F_Q" sendEvent="_QsOYudBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsOYz9BhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsOYt9BhEei5utmBXa6F_Q" sendEvent="_QsOYttBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsOY0NBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsOYutBhEei5utmBXa6F_Q" sendEvent="_QsOYudBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
             <message xmi:id="_QsOY0dBhEei5utmBXa6F_Q" name="choisir_unité(u1)" receiveEvent="_QsOYvNBhEei5utmBXa6F_Q" sendEvent="_QsOYu9BhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
             <message xmi:id="_QsOY0tBhEei5utmBXa6F_Q" name="true" messageSort="reply" receiveEvent="_QsOYydBhEei5utmBXa6F_Q" sendEvent="_QsOYyNBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
             <message xmi:id="_QsOY09BhEei5utmBXa6F_Q" name="ajouter_unité_auBO(u1)" receiveEvent="_QsOYv9BhEei5utmBXa6F_Q" sendEvent="_QsOYvtBhEei5utmBXa6F_Q" connector="_QsOYrtBhEei5utmBXa6F_Q"/>
             <message xmi:id="_QsOY1NBhEei5utmBXa6F_Q" name="true" messageSort="reply" receiveEvent="_QsOYwtBhEei5utmBXa6F_Q" sendEvent="_QsOYwdBhEei5utmBXa6F_Q" connector="_QsOYrtBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsOY1dBhEei5utmBXa6F_Q" name="afficher_continuer()" receiveEvent="_QsOYxNBhEei5utmBXa6F_Q" sendEvent="_QsOYw9BhEei5utmBXa6F_Q" connector="_QsOYrtBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsOY1tBhEei5utmBXa6F_Q" name="afficher_continuer()" messageSort="reply" receiveEvent="_QsOYx9BhEei5utmBXa6F_Q" sendEvent="_QsOYxtBhEei5utmBXa6F_Q" connector="_QsOYrtBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsOY1dBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsOYxNBhEei5utmBXa6F_Q" sendEvent="_QsOYw9BhEei5utmBXa6F_Q" connector="_QsOYrtBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsOY1tBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsOYx9BhEei5utmBXa6F_Q" sendEvent="_QsOYxtBhEei5utmBXa6F_Q" connector="_QsOYrtBhEei5utmBXa6F_Q"/>
             <message xmi:id="_QsOY19BhEei5utmBXa6F_Q" name="terminer_BO" receiveEvent="_QsOYy9BhEei5utmBXa6F_Q" sendEvent="_QsOYytBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
             <message xmi:id="_QsOY2NBhEei5utmBXa6F_Q" name="True" messageSort="reply" receiveEvent="_QsOYztBhEei5utmBXa6F_Q" sendEvent="_QsOYzdBhEei5utmBXa6F_Q" connector="_QsOYq9BhEei5utmBXa6F_Q"/>
           </ownedBehavior>
@@ -2436,14 +2422,14 @@
             <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_QsO_mdBhEei5utmBXa6F_Q" covered="_QsO_h9BhEei5utmBXa6F_Q" start="_QsO_mNBhEei5utmBXa6F_Q" finish="_QsO_mtBhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsO_mtBhEei5utmBXa6F_Q" covered="_QsO_h9BhEei5utmBXa6F_Q" event="_ovmZEdBeEei5utmBXa6F_Q" message="_QsO_o9BhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsO_m9BhEei5utmBXa6F_Q" covered="_QsO_htBhEei5utmBXa6F_Q" event="_ovmZEtBeEei5utmBXa6F_Q" message="_QsO_o9BhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_nNBhEei5utmBXa6F_Q" name="afficher_unité" receiveEvent="_QsO_idBhEei5utmBXa6F_Q" sendEvent="_QsO_iNBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_ndBhEei5utmBXa6F_Q" name="affichage" messageSort="reply" receiveEvent="_QsO_jNBhEei5utmBXa6F_Q" sendEvent="_QsO_i9BhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_ntBhEei5utmBXa6F_Q" name="saisir_unité(&quot;boss&quot;,2)" receiveEvent="_QsO_jtBhEei5utmBXa6F_Q" sendEvent="_QsO_jdBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_n9BhEei5utmBXa6F_Q" name="affichage(&quot;ajoutée&quot;)" messageSort="reply" receiveEvent="_QsO_ltBhEei5utmBXa6F_Q" sendEvent="_QsO_ldBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_oNBhEei5utmBXa6F_Q" name="ajouté_unité_a_la_configuration(&quot;boss&quot;,2)" receiveEvent="_QsO_kdBhEei5utmBXa6F_Q" sendEvent="_QsO_kNBhEei5utmBXa6F_Q" connector="_QsO_g9BhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_odBhEei5utmBXa6F_Q" name="True" messageSort="reply" receiveEvent="_QsO_lNBhEei5utmBXa6F_Q" sendEvent="_QsO_k9BhEei5utmBXa6F_Q" connector="_QsO_g9BhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_otBhEei5utmBXa6F_Q" name="Valider_choix()" receiveEvent="_QsO_mNBhEei5utmBXa6F_Q" sendEvent="_QsO_l9BhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsO_o9BhEei5utmBXa6F_Q" name="fin" messageSort="reply" receiveEvent="_QsO_m9BhEei5utmBXa6F_Q" sendEvent="_QsO_mtBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_nNBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsO_idBhEei5utmBXa6F_Q" sendEvent="_QsO_iNBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_ndBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsO_jNBhEei5utmBXa6F_Q" sendEvent="_QsO_i9BhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_ntBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsO_jtBhEei5utmBXa6F_Q" sendEvent="_QsO_jdBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_n9BhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsO_ltBhEei5utmBXa6F_Q" sendEvent="_QsO_ldBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_oNBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsO_kdBhEei5utmBXa6F_Q" sendEvent="_QsO_kNBhEei5utmBXa6F_Q" connector="_QsO_g9BhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_odBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsO_lNBhEei5utmBXa6F_Q" sendEvent="_QsO_k9BhEei5utmBXa6F_Q" connector="_QsO_g9BhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_otBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsO_mNBhEei5utmBXa6F_Q" sendEvent="_QsO_l9BhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsO_o9BhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsO_m9BhEei5utmBXa6F_Q" sendEvent="_QsO_mtBhEei5utmBXa6F_Q" connector="_QsO_gNBhEei5utmBXa6F_Q"/>
           </ownedBehavior>
           <ownedBehavior xmi:type="uml:Interaction" xmi:id="_QsO_pNBhEei5utmBXa6F_Q" name="Interaction2">
             <eAnnotations xmi:id="_QsO_pdBhEei5utmBXa6F_Q" source="uml2.diagrams">
@@ -2580,14 +2566,14 @@
             <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_QsPADtBhEei5utmBXa6F_Q" covered="_QsO__NBhEei5utmBXa6F_Q" start="_QsPADdBhEei5utmBXa6F_Q" finish="_QsPAD9BhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsPAD9BhEei5utmBXa6F_Q" covered="_QsO__NBhEei5utmBXa6F_Q" event="_ovmZEdBeEei5utmBXa6F_Q" message="_QsPAGNBhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsPAENBhEei5utmBXa6F_Q" covered="_QsO_-9BhEei5utmBXa6F_Q" event="_ovmZEtBeEei5utmBXa6F_Q" message="_QsPAGNBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAEdBhEei5utmBXa6F_Q" name="afficher_unité" receiveEvent="_QsO__tBhEei5utmBXa6F_Q" sendEvent="_QsO__dBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAEtBhEei5utmBXa6F_Q" name="affichage" messageSort="reply" receiveEvent="_QsPAAdBhEei5utmBXa6F_Q" sendEvent="_QsPAANBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAE9BhEei5utmBXa6F_Q" name="saisir_unité(&quot;boss&quot;)" receiveEvent="_QsPAA9BhEei5utmBXa6F_Q" sendEvent="_QsPAAtBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAFNBhEei5utmBXa6F_Q" name="affichage(&quot;ajoutée)" messageSort="reply" receiveEvent="_QsPAC9BhEei5utmBXa6F_Q" sendEvent="_QsPACtBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAFdBhEei5utmBXa6F_Q" name="ajouté_unité_a_la_configuration(&quot;boss&quot;,0)" receiveEvent="_QsPABtBhEei5utmBXa6F_Q" sendEvent="_QsPABdBhEei5utmBXa6F_Q" connector="_QsO_-NBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAFtBhEei5utmBXa6F_Q" name="true" messageSort="reply" receiveEvent="_QsPACdBhEei5utmBXa6F_Q" sendEvent="_QsPACNBhEei5utmBXa6F_Q" connector="_QsO_-NBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAF9BhEei5utmBXa6F_Q" name="Valider_choix()" receiveEvent="_QsPADdBhEei5utmBXa6F_Q" sendEvent="_QsPADNBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAGNBhEei5utmBXa6F_Q" name="fin" messageSort="reply" receiveEvent="_QsPAENBhEei5utmBXa6F_Q" sendEvent="_QsPAD9BhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAEdBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsO__tBhEei5utmBXa6F_Q" sendEvent="_QsO__dBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAEtBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAAdBhEei5utmBXa6F_Q" sendEvent="_QsPAANBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAE9BhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPAA9BhEei5utmBXa6F_Q" sendEvent="_QsPAAtBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAFNBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAC9BhEei5utmBXa6F_Q" sendEvent="_QsPACtBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAFdBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPABtBhEei5utmBXa6F_Q" sendEvent="_QsPABdBhEei5utmBXa6F_Q" connector="_QsO_-NBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAFtBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPACdBhEei5utmBXa6F_Q" sendEvent="_QsPACNBhEei5utmBXa6F_Q" connector="_QsO_-NBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAF9BhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPADdBhEei5utmBXa6F_Q" sendEvent="_QsPADNBhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAGNBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAENBhEei5utmBXa6F_Q" sendEvent="_QsPAD9BhEei5utmBXa6F_Q" connector="_QsO_9dBhEei5utmBXa6F_Q"/>
           </ownedBehavior>
           <ownedBehavior xmi:type="uml:Interaction" xmi:id="_QsPAGdBhEei5utmBXa6F_Q" name="Interaction3">
             <eAnnotations xmi:id="_QsPAGtBhEei5utmBXa6F_Q" source="uml2.diagrams">
@@ -2774,18 +2760,18 @@
             <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_QsPArdBhEei5utmBXa6F_Q" covered="_QsPAkdBhEei5utmBXa6F_Q" start="_QsPArNBhEei5utmBXa6F_Q" finish="_QsPArtBhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsPArtBhEei5utmBXa6F_Q" covered="_QsPAkdBhEei5utmBXa6F_Q" event="_ovmZEdBeEei5utmBXa6F_Q" message="_QsPAu9BhEei5utmBXa6F_Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsPAr9BhEei5utmBXa6F_Q" covered="_QsPAkNBhEei5utmBXa6F_Q" event="_ovmZEtBeEei5utmBXa6F_Q" message="_QsPAu9BhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAsNBhEei5utmBXa6F_Q" name="afficher_unité" receiveEvent="_QsPAk9BhEei5utmBXa6F_Q" sendEvent="_QsPAktBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAsdBhEei5utmBXa6F_Q" name="affichage" messageSort="reply" receiveEvent="_QsPAltBhEei5utmBXa6F_Q" sendEvent="_QsPAldBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAstBhEei5utmBXa6F_Q" name="saisir_unité()" receiveEvent="_QsPAmNBhEei5utmBXa6F_Q" sendEvent="_QsPAl9BhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAs9BhEei5utmBXa6F_Q" name="true" messageSort="reply" receiveEvent="_QsPAoNBhEei5utmBXa6F_Q" sendEvent="_QsPAn9BhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAtNBhEei5utmBXa6F_Q" name="affichage(&quot;erreur, au moins un paramètre&quot;)" receiveEvent="_QsPAm9BhEei5utmBXa6F_Q" sendEvent="_QsPAmtBhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAtdBhEei5utmBXa6F_Q" name="affichage" messageSort="reply" receiveEvent="_QsPAntBhEei5utmBXa6F_Q" sendEvent="_QsPAndBhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAttBhEei5utmBXa6F_Q" name="saisir_unité(&quot;boss&quot;,2)" receiveEvent="_QsPAotBhEei5utmBXa6F_Q" sendEvent="_QsPAodBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAt9BhEei5utmBXa6F_Q" name="affichage(&quot;ajoutée&quot;)" messageSort="reply" receiveEvent="_QsPAqtBhEei5utmBXa6F_Q" sendEvent="_QsPAqdBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAuNBhEei5utmBXa6F_Q" name="ajouté_unité_a_la_configuration(&quot;boss&quot;,2)" receiveEvent="_QsPApdBhEei5utmBXa6F_Q" sendEvent="_QsPApNBhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAudBhEei5utmBXa6F_Q" name="True" messageSort="reply" receiveEvent="_QsPAqNBhEei5utmBXa6F_Q" sendEvent="_QsPAp9BhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAutBhEei5utmBXa6F_Q" name="Valider_choix()" receiveEvent="_QsPArNBhEei5utmBXa6F_Q" sendEvent="_QsPAq9BhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
-            <message xmi:id="_QsPAu9BhEei5utmBXa6F_Q" name="fin" messageSort="reply" receiveEvent="_QsPAr9BhEei5utmBXa6F_Q" sendEvent="_QsPArtBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAsNBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPAk9BhEei5utmBXa6F_Q" sendEvent="_QsPAktBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAsdBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAltBhEei5utmBXa6F_Q" sendEvent="_QsPAldBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAstBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPAmNBhEei5utmBXa6F_Q" sendEvent="_QsPAl9BhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAs9BhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAoNBhEei5utmBXa6F_Q" sendEvent="_QsPAn9BhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAtNBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPAm9BhEei5utmBXa6F_Q" sendEvent="_QsPAmtBhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAtdBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAntBhEei5utmBXa6F_Q" sendEvent="_QsPAndBhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAttBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPAotBhEei5utmBXa6F_Q" sendEvent="_QsPAodBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAt9BhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAqtBhEei5utmBXa6F_Q" sendEvent="_QsPAqdBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAuNBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPApdBhEei5utmBXa6F_Q" sendEvent="_QsPApNBhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAudBhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAqNBhEei5utmBXa6F_Q" sendEvent="_QsPAp9BhEei5utmBXa6F_Q" connector="_QsPAjdBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAutBhEei5utmBXa6F_Q" name="\Non spécifié\" receiveEvent="_QsPArNBhEei5utmBXa6F_Q" sendEvent="_QsPAq9BhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
+            <message xmi:id="_QsPAu9BhEei5utmBXa6F_Q" name="\Non spécifié\" messageSort="reply" receiveEvent="_QsPAr9BhEei5utmBXa6F_Q" sendEvent="_QsPArtBhEei5utmBXa6F_Q" connector="_QsPAitBhEei5utmBXa6F_Q"/>
           </ownedBehavior>
           <ownedAttribute xmi:id="_QsPAvNBhEei5utmBXa6F_Q" name="joueur" type="_GxI3IMraEei5VPPh28rAJw"/>
           <ownedAttribute xmi:id="_QsPAvdBhEei5utmBXa6F_Q" name="iA" type="_IWLiUMraEei5VPPh28rAJw"/>
@@ -2966,20 +2952,20 @@
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_pVIZ8NBcEei5utmBXa6F_Q" name="SendOperationEvent1" operation="_pVHL0NBcEei5utmBXa6F_Q"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_pVIZ8dBcEei5utmBXa6F_Q" name="ReceiveOperationEvent1" operation="_pVHL0NBcEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_C-0J4dBdEei5utmBXa6F_Q" name="SendOperationEvent2" operation="_C-0J4NBdEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_C-0w8NBdEei5utmBXa6F_Q" name="ReceiveOperationEvent2" operation="_C-0J4NBdEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_kClFwdBdEei5utmBXa6F_Q" name="SendOperationEvent3" operation="_kClFwNBdEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_kClFwtBdEei5utmBXa6F_Q" name="ReceiveOperationEvent3" operation="_kClFwNBdEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_U2jyENBeEei5utmBXa6F_Q" name="SendOperationEvent4" operation="_U2jLANBeEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_U2jyEdBeEei5utmBXa6F_Q" name="ReceiveOperationEvent4" operation="_U2jLANBeEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_d9mPENBeEei5utmBXa6F_Q" name="SendOperationEvent5" operation="_d9loANBeEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_d9mPEdBeEei5utmBXa6F_Q" name="ReceiveOperationEvent5" operation="_d9loANBeEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ovmZEdBeEei5utmBXa6F_Q" name="SendOperationEvent6" operation="_ovmZENBeEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ovmZEtBeEei5utmBXa6F_Q" name="ReceiveOperationEvent6" operation="_ovmZENBeEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ITk9MNBfEei5utmBXa6F_Q" name="SendOperationEvent7" operation="_ITkWINBfEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ITk9MdBfEei5utmBXa6F_Q" name="ReceiveOperationEvent7" operation="_ITkWINBfEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_KmJAQdBgEei5utmBXa6F_Q" name="SendOperationEvent8" operation="_KmJAQNBgEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_KmJAQtBgEei5utmBXa6F_Q" name="ReceiveOperationEvent8" operation="_KmJAQNBgEei5utmBXa6F_Q"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_C-0J4dBdEei5utmBXa6F_Q" name="SendOperationEvent2"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_C-0w8NBdEei5utmBXa6F_Q" name="ReceiveOperationEvent2"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_kClFwdBdEei5utmBXa6F_Q" name="SendOperationEvent3"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_kClFwtBdEei5utmBXa6F_Q" name="ReceiveOperationEvent3"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_U2jyENBeEei5utmBXa6F_Q" name="SendOperationEvent4"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_U2jyEdBeEei5utmBXa6F_Q" name="ReceiveOperationEvent4"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_d9mPENBeEei5utmBXa6F_Q" name="SendOperationEvent5"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_d9mPEdBeEei5utmBXa6F_Q" name="ReceiveOperationEvent5"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ovmZEdBeEei5utmBXa6F_Q" name="SendOperationEvent6"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ovmZEtBeEei5utmBXa6F_Q" name="ReceiveOperationEvent6"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ITk9MNBfEei5utmBXa6F_Q" name="SendOperationEvent7"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ITk9MdBfEei5utmBXa6F_Q" name="ReceiveOperationEvent7"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_KmJAQdBgEei5utmBXa6F_Q" name="SendOperationEvent8"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_KmJAQtBgEei5utmBXa6F_Q" name="ReceiveOperationEvent8"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_0iPZUdBhEei5utmBXa6F_Q" name="SendOperationEvent9" operation="_0iPZUNBhEei5utmBXa6F_Q"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_0iPZUtBhEei5utmBXa6F_Q" name="ReceiveOperationEvent9" operation="_0iPZUNBhEei5utmBXa6F_Q"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_K-3XYdBiEei5utmBXa6F_Q" name="SendOperationEvent10" operation="_K-3XYNBiEei5utmBXa6F_Q"/>
@@ -2992,7 +2978,23 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_T0JgkdBjEei5utmBXa6F_Q" name="ReceiveOperationEvent13" operation="_T0I5gNBjEei5utmBXa6F_Q"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_XB_VkNBjEei5utmBXa6F_Q" name="SendOperationEvent14" operation="_XB-ugNBjEei5utmBXa6F_Q"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_XB_VkdBjEei5utmBXa6F_Q" name="ReceiveOperationEvent14" operation="_XB-ugNBjEei5utmBXa6F_Q"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_6x4EANBkEei5utmBXa6F_Q" name="SUBOO"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6x4EANBkEei5utmBXa6F_Q" name="SUBOO">
+      <ownedOperation xmi:id="_gB16kNBlEei5utmBXa6F_Q" name="Operation2"/>
+      <ownedOperation xmi:id="_KmJAQNBgEei5utmBXa6F_Q" name="affichage"/>
+      <ownedOperation xmi:id="_T0I5gNBjEei5utmBXa6F_Q" name="afficher_BO"/>
+      <ownedOperation xmi:id="_C-0J4NBdEei5utmBXa6F_Q" name="afficher_choix"/>
+      <ownedOperation xmi:id="_kClFwNBdEei5utmBXa6F_Q" name="afficher_continuer()"/>
+      <ownedOperation xmi:id="_XB-ugNBjEei5utmBXa6F_Q" name="afficher_temps_excec"/>
+      <ownedOperation xmi:id="_ITkWINBfEei5utmBXa6F_Q" name="afficher_unité"/>
+      <ownedOperation xmi:id="_d9loANBeEei5utmBXa6F_Q" name="ajouté_unité_a_la_configuration(&quot;boss&quot;,2)"/>
+      <ownedOperation xmi:id="_0iPZUNBhEei5utmBXa6F_Q" name="ajouter_unité_auBO(u2)"/>
+      <ownedOperation xmi:id="_K-3XYNBiEei5utmBXa6F_Q" name="choisir_unité(u3)"/>
+      <ownedOperation xmi:id="_McpHgNBjEei5utmBXa6F_Q" name="lancer_algo_optimal"/>
+      <ownedOperation xmi:id="_pVHL0NBcEei5utmBXa6F_Q" name="Proposer_BO"/>
+      <ownedOperation xmi:id="_U2jLANBeEei5utmBXa6F_Q" name="saisir_unité(&quot;boss&quot;,2)"/>
+      <ownedOperation xmi:id="_aak3cNBiEei5utmBXa6F_Q" name="terminer_BO"/>
+      <ownedOperation xmi:id="_ovmZENBeEei5utmBXa6F_Q" name="Valider_choix()"/>
+    </packagedElement>
     <profileApplication xmi:id="_3grk1srZEei5VPPh28rAJw">
       <eAnnotations xmi:id="_3grk18rZEei5VPPh28rAJw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
