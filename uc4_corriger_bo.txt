@@ -1,0 +1,30 @@
+UC04 : « Corriger BO».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	Le système vérifie si le BO proposé est réalisable.
+	dans le cas contraire, le système rend le BO réalisable en lui ajoutant des actions. 
+Pré-conditions :
+	Le joueur a proposé un BO.
+Séquence nominale:
+	1- Le joueur clique sur corriger BO 
+	2- Le système se positionne à la première action du BO proposé.
+	3- Le système vérifie si l’action en cours est réalisable.
+	4- Le système se positionne à l’action suivante s’il y en a encore.
+	5- Le système valide le BO corrigé 
+Enchaînements alternatifs:
+	A1 : L’action en cours n’est pas réalisable:
+	L'enchaînement démarre après le point 3 
+		4- Le système affiche à l’utilisateur que l’instruction n’est pas réalisable 
+		5- Le système construit une séquence d’actions permettant de réaliser cette action à partir de l’état actuel
+		6- Le système ajoute cette séquence au BO proposé par le joueur (donc l’instruction est devenue réalisable) 
+		7- Le système ajoute la séquence d’actions au diagramme du joueur
+		8- Le système se positionne à l'action suivante 
+		8- Le système se branche à 3.  
+		
+Enchaînements d’exception:
+	
+	
+Post-conditions:
+	Le BO proposé est réalisable.

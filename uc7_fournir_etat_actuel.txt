@@ -1,0 +1,21 @@
+UC07 : « Fournir Etat Actuel ».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+
+Description: 
+	L'IA joue au jeu en temps réel, et a une observation sur l'état actuel du jeu, lui permettant de fournir des objectifs qu'il faut optimiser rapidement.  
+
+Pré-conditions :
+	Un objectif doit être défini. 
+	Les règles de construction doivent être connues.
+
+
+Séquence nominale:
+	1- L'IA affiche l'état et le nombre de chaque unité présente dans le jeu. 
+	2- L'IA affiche le temps écoulé depuis le début de la construction. 
+	3- L'IA définit la meilleure décision à prendre à cet instant du jeu. 
+
+	
+Post-conditions:
+	La décision fournie est bien la meilleure (la plus optimale)

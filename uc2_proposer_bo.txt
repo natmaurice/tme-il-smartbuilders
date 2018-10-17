@@ -1,0 +1,47 @@
+UC02 : « Proposer BO».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	Le joueur proposera un BO que selon lui permettra d’atteindre l’objectif qui lui a été défini par le système.
+Pré-conditions :
+	Les règles du jeu sont définies 
+Séquence nominale:
+	1- Le joueur clique sur le bouton proposer BO
+	2- le système affiche à l’utilisateur une interface lui permettant de choisir une unité à produire à l’étape courante et un diagramme représentant le BO en construction.
+	3- le joueur choisit une unité à produire.
+	4- le système ajoute cette construction au BO et au diagramme en proposant de l’annuler.
+	5- le système propose au joueur de terminer son BO ou de continuer sa construction
+	6- le joueur choisit de terminer
+	7- le système propose de corriger le BO ou d’optimiser le BO
+	8- Le joueur clique sur corriger
+	9- Faire appel à UC4 : Corriger BO 
+	10- Le système affiche le BO corrigé. 
+	11- Le système propose d'optimiser le BO obtenu ou de terminer l'interaction 
+	12- Le joueur choisit de terminer 
+	13- Le système termine l'interaction 
+	
+Enchaînements alternatifs:
+	A1: Annulation d’une construction 
+	L’enchainement démarre après le point 4 de la séquence nominale 
+		5- le joueur clique sur annuler 
+		6- Le système supprime la construction du BO et du diagramme affiché
+		7- La séquence nominale reprend au point 5
+
+	A2: Poursuite de la construction 
+	L’enchainement démarre après le point 5 de la séquence nominale  
+		6- La séquence nominale reprend au point 2.
+
+	A3: Optimisation du BO 
+	L’enchainement démarre après le point 7 ou bien le point 11 de la séquence nominale  
+		- le joueur choisit d’optimiser le BO
+		- Faire appel à UC6: Fournir BO Optimisé 
+		- le système affiche le BO optimisé
+
+Enchaînements d’exception:
+	E1:  Abandon de la construction du BO 
+	L’enchainement peut démarrer aux points 3, 6 et 8
+		Appel de l’exécution du UC1: « Configurer Version »
+Post-conditions:
+	Le système enregistre le BO proposé par le joueur.
+	

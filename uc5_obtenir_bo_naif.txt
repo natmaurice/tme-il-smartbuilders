@@ -1,0 +1,27 @@
+UC05: « Obtenir BO Naif».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+		
+Pré-conditions :
+	Un objectif doit être définit (le Use Case Définir Objectif a été appelé)
+
+Séquence nominale:
+	1- Le joueur clique sur "Obtenir BO Naïf"
+	2- Le système affiche un diagramme représentant un BO réalisable qui permet d'atteindre l'objectif déjà défini.
+	3- Le système propose d'optimiser le BO ou de terminer l'interaction 
+	4- Le joueur choisit de terminer 
+	5- Le système termine l'interaction 
+
+Enchaînements alternatifs:
+	A1: Optimisation du BO 
+	L'enchaînement démarre après le point 3 de la séquence nominale 
+		4- Le joueur choisit d'optimiser le BO
+		5- Faire appel au UC6: Fournir BO Optimisé 
+		6- Afficher le BO optimisé 
+
+Enchaînements d’exception:
+	
+Post-conditions:
+	Le système a proposé un BO réalisable.
