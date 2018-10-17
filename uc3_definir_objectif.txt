@@ -1,0 +1,43 @@
+
+
+UC03 : « Définir objectif ».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+
+Description: 
+	Le joueur veut construire un certain nombre d’unités ou avoir une certaine quantité de ressources.
+
+
+Préconditions :
+	Les règles du jeu sont définies 
+
+
+Séquence nominale:
+	
+	1- Le joueur clique sur le bouton définir objectif 
+
+	2- Le système propose à l’utilisateur une interface contenant tous les types d’unités disponibles. Cette interface contient également des champs pour que le joueur puisse choisir la quantité à obtenir de chaque type d’unité. 
+
+	3- Le joueur choisit pour chaque type d’unité la quantité à obtenir 
+
+	4- Le joueur clique sur Obtenir BO naïf
+
+	5- Appel au UC5 "Obtenir BO Naïf"
+
+Enchaînements alternatifs:
+
+	A1: Le joueur a laissé certains champs vides:
+	L'enchaînement démarre après le point 3
+		4- Le système mets les champs en question à 0
+		5- La séquence nominale reprend au point 4
+
+Enchaînements d’exception:
+
+	E1: Le joueur n’a rempli aucun champs: 
+		4- Le système indique qu’il faut remplir au moins un champs 
+	La séquence nominale reprend au point 2. 
+
+Post-conditions:
+	Le système a enregistré les choix du joueur.
+	

@@ -1,0 +1,27 @@
+UC06 : « Fournir BO Optimise ».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	L’IA doit pouvoir produire un BO optimal permettant d’atteindre un objectif prédéfinit.
+Pré-conditions :
+	L’objectif à atteindre doit être connu
+	L'état actuel correspond aux conditions initiales 
+
+Séquence nominale:
+	1- Le joueur choisit d'obtenir un BO optimisé 
+	2- Le système demande à l'IA de lui fournir l'objectif à optimiser à cours terme 
+	3- Appel au UC7: Fournir Etat Actuel 
+	4- Le système construit l'unité choisie par L'IA  
+	5- Le sytème vérifie si l'objectif final est atteint 
+	6- Terminer l'interaction.
+Enchaînements alternatifs:
+	A1: Objectif final non atteint : 
+	L'enchaînement démarre après le point 5
+		6- La séquence nominale reprend au point au point 2. 
+
+Enchaînements d’exception:
+	
+	
+Post-conditions:
+	Le BO fourni est le meilleur BO possible.
