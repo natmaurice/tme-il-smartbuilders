@@ -13,13 +13,11 @@ Séquence nominale:
 	4- le système ajoute cette construction au BO et au diagramme en proposant de l’annuler.
 	5- le système propose au joueur de terminer son BO ou de continuer sa construction
 	6- le joueur choisit de terminer
-	7- le système propose de corriger le BO ou d’optimiser le BO
-	8- Le joueur clique sur corriger
-	9- Faire appel à UC4 : Corriger BO 
-	10- Le système affiche le BO corrigé. 
-	11- Le système propose d'optimiser le BO obtenu ou de terminer l'interaction 
-	12- Le joueur choisit de terminer 
-	13- Le système termine l'interaction 
+	7- Le système simule l'exécusion et vérifie si le BO est réalisable 
+	8- Le système affiche le temps d'exécusion estimé à la réalisation de ce BO 
+	9- Le système propose d'optimiser le BO obtenu ou de terminer l'interaction 
+	10- Le joueur choisit de terminer 
+	11- Le système termine l'interaction 
 	
 Enchaînements alternatifs:
 	A1: Annulation d’une construction 
@@ -32,15 +30,26 @@ Enchaînements alternatifs:
 	L’enchainement démarre après le point 5 de la séquence nominale  
 		6- La séquence nominale reprend au point 2.
 
+	A3: le BO proposé est non réalisable:
+	L’enchainement démarre après le point 7 de la séquence nominale  
+		7- le système affiche que le BO est non réalisable
+		8- le système propose de corriger le BO 
+		9- le joueur clique sur corriger
+		10- faire appel à UC4 : Corriger BO 
+		11- Le système affiche le BO corrigé
+		12- la séquence nominale reprend au point 9
+
 	A3: Optimisation du BO 
-	L’enchainement démarre après le point 7 ou bien le point 11 de la séquence nominale  
+	L’enchainement démarre après le point 9 
 		- le joueur choisit d’optimiser le BO
 		- Faire appel à UC6: Fournir BO Optimisé 
 		- le système affiche le BO optimisé
 
+
+
 Enchaînements d’exception:
 	E1:  Abandon de la construction du BO 
-	L’enchainement peut démarrer aux points 3, 6 et 8
+	L’enchainement peut démarrer aux points 3, 6 
 		Appel de l’exécution du UC1: « Configurer Version »
 Post-conditions:
 	Le système enregistre le BO proposé par le joueur.

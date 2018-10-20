@@ -3,10 +3,9 @@ Date de création : 14/10/2018
 Responsables: FENEK OUARDA, OUDALI SALIHA
 Version : 1.1.
 Description: 
-	Le système vérifie si le BO proposé est réalisable.
-	dans le cas contraire, le système rend le BO réalisable en lui ajoutant des actions. 
+	Cooriger un BO en ajoutant des instructions permettant de réaliser chaque action 	
 Pré-conditions :
-	Le joueur a proposé un BO.
+	Le joueur a proposé un BO non réalisable.
 Séquence nominale:
 	1- Le joueur clique sur corriger BO 
 	2- Le système se positionne à la première action du BO proposé.
