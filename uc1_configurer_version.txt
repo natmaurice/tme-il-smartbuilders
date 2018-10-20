@@ -4,43 +4,42 @@ Responsables: FENEK OUARDA, OUDALI SALIHA
 Version : 1.1.
 Description: 
 	Il s’agit de définir la version du jeu (voire les règles de construction)
-	et de choisir l'approche du jeu (le joueur aura à choisr est ce qu'il fixera un objectif et le système lui fournira un BO lui permettant de l'atteindre, ou bien, c'est lui qui devra proposer un BO selon un onjectif fixé par le système) 	
+	et de choisir l'approche du jeu (le joueur aura à choisir est ce qu'il fixera un objectif et le système lui fournira un BO lui permettant de l'atteindre, ou bien, c'est lui qui devra proposer un BO selon un objectif fixé par le système) 	
 Pré-conditions :
 	aucune
 Séquence nominale:
-	1- Le système propose de définir les règles du jeu ou de jouer avec celles qui sont pré-définies.
-	2- Le joueur appuie sur définir règles du jeu 
-	3- Le système demande de saisir l'unité concernée par la règle en cours 
-	4- Le joueur saisie une unité et valide
-	5- Le système demande au joueur de saisir le coût en pièces d'or
-	6- Le joueur saisit le coût en pièces d'or et valide 
-	7- Le système demande au joueur de saisir le coût en nourriture 
-	8- Le joueur saisit le coût en nourriture et valide 
-	9- Le système demande au joueur de saisir le temps de construction de cette unité
-	10- Le joueur saisit le temps de construction et valide
-	11- Le système propose au joueur de définir encore une règle de construction s'il en reste 
-	12- Le système propose au joueur de définir un objectif à atteinde ou de proposer son propore BO
-	13- Le joueur choisit de proposer son propre BO 
-	14- Le système fixe un objectif que le joueur devrait essayer d'atteindre 
-	15- Appel au UC2: "Proposer BO"
+	1- Le joueur clique sur configurer version 
+	2- Le système demande de saisir l'unité concernée par la règle en cours 
+	3- Le joueur saisie une unité et valide
+	4- Le système demande au joueur de saisir le coût en pièces d'or
+	5- Le joueur saisit le coût en pièces d'or et valide 
+	6- Le système demande au joueur de saisir le coût en nourriture 
+	7- Le joueur saisit le coût en nourriture et valide 
+	8- Le système demande au joueur de saisir le temps de construction de cette unité
+	9- Le joueur saisit le temps de construction et valide
+	10- Le système propose au joueur de définir encore une règle de construction s'il en reste 
+	11- Le système propose au joueur de définir un objectif à atteinde ou de proposer son propore BO
+	12- Le joueur choisit de proposer son propre BO 
+	13- Le système fixe un objectif que le joueur devrait essayer d'atteindre 
+	14- Appel au UC2: "Proposer BO"
 
 Enchaînements alternatifs:
 	A1: Jouer avec les règles prédéfinies:
-	L'enchaînement démarre après le point 1 de la séquence nominale 
-		2- Le sytème charge le fichier de configuration par défaut 
-		3- La séquence nominale reprend au point 12 
+	L'enchaînement démarre au le point 1 de la séquence nominale 
+		1- Le sytème charge le fichier de configuration par défaut 
+		2- La séquence nominale reprend au point 11
 
 	A2: Ajouter une règle de construction 
-	L'enchaînement démarre après le point 11 de la séquence nominale 
-		12- La séquence nominale reprend au point 3
+	L'enchaînement démarre après le point 1O de la séquence nominale 
+		11- La séquence nominale reprend au point 3
 
 	A3: Définir un objectif pour le système 
-	L'enchaînement démarre après le point 12
-		13- Le joueur choisit de définir un objectif.
-		14- Appel au UC3: "Définir Objectif"
+	L'enchaînement démarre après le point 11
+		12- Le joueur choisit de définir un objectif.
+		13- Appel au UC3: "Définir Objectif"
 Enchaînements d’exception:
 	E1: Abondan 
-	L'enchaînement peut démarrer aux points 4, 6, 8 et 10
+	L'enchaînement peut démarrer aux points 3, 5, 7 et 9
 		Le système charge le fichier de configuration par défaut. 
 	
 Post-conditions:
