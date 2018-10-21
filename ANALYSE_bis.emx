@@ -1680,7 +1680,7 @@
         <message xmi:id="_9vEFQtOCEeirHIgkXPAQuA" name="true" messageSort="reply" receiveEvent="_9vEFQ9OCEeirHIgkXPAQuA" sendEvent="_9vEFQdOCEeirHIgkXPAQuA" connector="_pg0KoNN_EeirHIgkXPAQuA"/>
         <message xmi:id="_F27kQNODEeirHIgkXPAQuA" name="récuperer_unité_a_proposer()" receiveEvent="_F28yYNODEeirHIgkXPAQuA" sendEvent="_F28LUNODEeirHIgkXPAQuA" connector="_0a-yIdN_EeirHIgkXPAQuA"/>
         <message xmi:id="_F29ZcdODEeirHIgkXPAQuA" name="unités proposées" messageSort="reply" receiveEvent="_F2-AgNODEeirHIgkXPAQuA" sendEvent="_F29ZcNODEeirHIgkXPAQuA" connector="_0a-yIdN_EeirHIgkXPAQuA"/>
-        <message xmi:id="_IvNRkNOGEeirHIgkXPAQuA" name="sélectionner_unité(&quot;cente&quot;,2)" receiveEvent="_IvN4odOGEeirHIgkXPAQuA" sendEvent="_IvN4oNOGEeirHIgkXPAQuA" connector="_pg0KoNN_EeirHIgkXPAQuA"/>
+        <message xmi:id="_IvNRkNOGEeirHIgkXPAQuA" name="sélectionner_unité(&quot;centre&quot;,2)" receiveEvent="_IvN4odOGEeirHIgkXPAQuA" sendEvent="_IvN4oNOGEeirHIgkXPAQuA" connector="_pg0KoNN_EeirHIgkXPAQuA"/>
         <message xmi:id="_IvN4pNOGEeirHIgkXPAQuA" name="true" messageSort="reply" receiveEvent="_IvN4pdOGEeirHIgkXPAQuA" sendEvent="_IvN4o9OGEeirHIgkXPAQuA" connector="_pg0KoNN_EeirHIgkXPAQuA"/>
         <message xmi:id="_u7t98NRMEei1lMSluZ474g" name="inserer_unité_liste(&quot;ferme&quot;,2)" receiveEvent="_u7vMENRMEei1lMSluZ474g" sendEvent="_u7ulANRMEei1lMSluZ474g" connector="_0a-yIdN_EeirHIgkXPAQuA"/>
         <message xmi:id="_u7waMdRMEei1lMSluZ474g" name="true" messageSort="reply" receiveEvent="_u7xBQNRMEei1lMSluZ474g" sendEvent="_u7waMNRMEei1lMSluZ474g" connector="_0a-yIdN_EeirHIgkXPAQuA"/>
