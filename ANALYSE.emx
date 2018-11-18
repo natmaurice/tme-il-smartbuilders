@@ -1113,8 +1113,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1jjM8MrdEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_-e-24MrdEei5VPPh28rAJw" name="ressources2" visibility="private" type="_iUHZEMrcEei5VPPh28rAJw" association="_-e-P0MrdEei5VPPh28rAJw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-e-24srdEei5VPPh28rAJw" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-e-24crdEei5VPPh28rAJw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-e-24srdEei5VPPh28rAJw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-e-24crdEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_9prxIMreEei5VPPh28rAJw" name="tpsCstr" visibility="private"/>
       <ownedAttribute xmi:id="_Cu5XcMrfEei5VPPh28rAJw" name="construction" visibility="private" type="_yyilQMraEei5VPPh28rAJw" association="_Cu4wYMrfEei5VPPh28rAJw">
@@ -1150,8 +1150,14 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MzxuAcrlEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_bFXCMNU2Eei17YkQlWPdrg" name="buildOrder" visibility="private" type="_L2FboNU2Eei17YkQlWPdrg" association="_bFSwwNU2Eei17YkQlWPdrg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bFYQUdU2Eei17YkQlWPdrg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bFYQUNU2Eei17YkQlWPdrg" value="1"/>
+        <upperValue xmi:type="uml:OpaqueExpression" xmi:id="_eeFpMOuKEeimfbTpnT8SSA">
+          <language></language>
+          <body>0,1</body>
+        </upperValue>
+        <lowerValue xmi:type="uml:OpaqueExpression" xmi:id="_eeFCIOuKEeimfbTpnT8SSA">
+          <language></language>
+          <body>0,1</body>
+        </lowerValue>
       </ownedAttribute>
       <ownedAttribute xmi:id="_MzyVEcrlEei5VPPh28rAJw" name="construction" visibility="private" type="_yyilQMraEei5VPPh28rAJw" association="_MzxG8MrlEei5VPPh28rAJw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mzy8IMrlEei5VPPh28rAJw" value="1"/>
@@ -1263,8 +1269,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sP-IwcrdEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_-e_d8MrdEei5VPPh28rAJw" name="construction2" visibility="private" type="_yyilQMraEei5VPPh28rAJw" association="_-e-P0MrdEei5VPPh28rAJw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-e_d8srdEei5VPPh28rAJw" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-e_d8crdEei5VPPh28rAJw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-e_d8srdEei5VPPh28rAJw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-e_d8crdEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_2ANMYMrgEei5VPPh28rAJw" name="qté" visibility="private"/>
     </packagedElement>
@@ -1338,8 +1344,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IjUQUMrjEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="__EG5AMrkEei5VPPh28rAJw" name="occConstruction" visibility="private" type="_3QucQMrkEei5VPPh28rAJw" association="__EGR8MrkEei5VPPh28rAJw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__EHgEcrkEei5VPPh28rAJw" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__EHgEMrkEei5VPPh28rAJw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__EHgEcrkEei5VPPh28rAJw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__EHgEMrkEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_BcMKsMrlEei5VPPh28rAJw" name="attribut1" visibility="private"/>
       <ownedLiteral xmi:id="_D-EjgMrjEei5VPPh28rAJw" name="EnConstruction" classifier="_CUuAEMrjEei5VPPh28rAJw"/>
@@ -1374,8 +1380,14 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NypKAcrlEei5VPPh28rAJw"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_AtcTQNU2Eei17YkQlWPdrg" name="objectif" visibility="private" type="_uH24MNU1Eei17YkQlWPdrg" association="_AtWzsNU2Eei17YkQlWPdrg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AteIcNU2Eei17YkQlWPdrg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AtdhYNU2Eei17YkQlWPdrg" value="1"/>
+        <upperValue xmi:type="uml:OpaqueExpression" xmi:id="_X8sYwOuKEeimfbTpnT8SSA">
+          <language></language>
+          <body>0,1</body>
+        </upperValue>
+        <lowerValue xmi:type="uml:OpaqueExpression" xmi:id="_X8lrEOuKEeimfbTpnT8SSA">
+          <language></language>
+          <body>0,1</body>
+        </lowerValue>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="__EGR8MrkEei5VPPh28rAJw" memberEnd="__EG5AMrkEei5VPPh28rAJw __EHgEsrkEei5VPPh28rAJw"/>
@@ -1447,8 +1459,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6T2T8NU1Eei17YkQlWPdrg" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_AtZP8NU2Eei17YkQlWPdrg" name="occConstruction" visibility="private" type="_3QucQMrkEei5VPPh28rAJw" association="_AtWzsNU2Eei17YkQlWPdrg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AtbFIdU2Eei17YkQlWPdrg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AtbFINU2Eei17YkQlWPdrg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AtbFIdU2Eei17YkQlWPdrg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AtbFINU2Eei17YkQlWPdrg"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_6TtxENU1Eei17YkQlWPdrg" name="objectifBanque" memberEnd="_6TyCgNU1Eei17YkQlWPdrg _6T1F0NU1Eei17YkQlWPdrg"/>
@@ -1456,8 +1468,8 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_L2FboNU2Eei17YkQlWPdrg" name="BuildOrder">
       <ownedAttribute xmi:id="_TFaJENU2Eei17YkQlWPdrg" name="dateCstr" visibility="private"/>
       <ownedAttribute xmi:id="_bFT-4NU2Eei17YkQlWPdrg" name="construction" visibility="private" type="_yyilQMraEei5VPPh28rAJw" association="_bFSwwNU2Eei17YkQlWPdrg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bFV0ENU2Eei17YkQlWPdrg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bFVNANU2Eei17YkQlWPdrg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bFV0ENU2Eei17YkQlWPdrg" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bFVNANU2Eei17YkQlWPdrg"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_bFSwwNU2Eei17YkQlWPdrg" memberEnd="_bFT-4NU2Eei17YkQlWPdrg _bFXCMNU2Eei17YkQlWPdrg"/>
